@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  xmlns="http://www.w3.org/1999/html"
-  xmlns="http://www.w3.org/1999/html"
-  xmlns="http://www.w3.org/1999/html"
-  xmlns="http://www.w3.org/1999/html"
->
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="IT school    from Belarus" />
@@ -89,9 +83,10 @@
         <td>Groups the footer content in a table</td>
       </tr>
     </table>
-    <form>
+    <form action="/" method="get">
       <fieldset>
         <legend>My firs form</legend>
+
         <p>
           <label for="name">Name </label><br />
           <input
@@ -101,6 +96,7 @@
             minlength="5"
             maxlength="12"
             placeholder="Name"
+            required
           />
         </p>
         <label for="email">Email </label><br />
@@ -111,6 +107,7 @@
           minlength="15"
           maxlength="25"
           placeholder="Email"
+          required
         />
         <p>
           <label for="password">Password </label><br />
@@ -122,14 +119,15 @@
             minlength="4"
             maxlength="10"
             placeholder="Password"
+            required
           />
         </p>
 
         <p>
-          <label for="your programming level">Your programming level</label
+          <label for="your_programming_level">Your programming level</label
           ><br />
           <input
-            id="your programming level"
+            id="your_programming_level"
             type="range"
             placeholder="Your
         programming level"
@@ -139,28 +137,28 @@
         </p>
 
         <p>What does HTML stand for?</p>
-        <input id="hyperlinks and text markup language" type="checkbox" />
-        <label for="hyperlinks and text markup language"
+        <input id="hyperlinks_and_text_markup_language" type="checkbox" />
+        <label for="hyperlinks_and_text_markup_language"
           >Hyperlinks and text markup language</label
         >
         <br />
-        <input id="home tool markup language" type="checkbox" />
-        <label for="home tool markup language"> Home tool markup language</label
+        <input id="home_tool_markup_language" type="checkbox" />
+        <label for="home_tool_markup_language"> Home tool markup language</label
         ><br />
-        <input id="hype text markup language" type="checkbox" />
-        <label for="hype text markup language">Hype text markup language</label>
+        <input id="hype_text_markup_language" type="checkbox" />
+        <label for="hype_text_markup_language">Hype text markup language</label>
 
         <p>What does HTTP stand for?</p>
-        <input id="hyper text translate protocol" type="radio" />
-        <label for="hyper text translate protocol"
+        <input id="hyper_text_translate_protocol" type="radio" />
+        <label for="hyper_text_translate_protocol"
           >Hyper text translate protocol</label
         ><br />
-        <input id="hyper text transmission protocol" type="radio" />
-        <label for="hyper text transmission protocol"
+        <input id="hyper_text_transmission_protocol" type="radio" />
+        <label for="hyper_text_transmission_protocol"
           >Hyper text transmission protocol</label
         ><br />
-        <input id="hyper text transfer protocol" type="radio" />
-        <label for="hyper text transfer protocol"
+        <input id="hyper_text_transfer_protocol" type="radio" />
+        <label for="hyper_text_transfer_protocol"
           >Hyper text transfer protocol</label
         >
         <p>
@@ -174,8 +172,8 @@
           ></textarea>
         </p>
         <p>What does HTML stand for?</p>
-        <label for="your answer"></label>
-        <select name="your answer" id="your answer">
+        <label for="your_answer"></label>
+        <select name="your_answer" id="your_answer">
           <option value="1">Standardized markup language</option>
         </select>
         <button>Send</button>
