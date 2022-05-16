@@ -1,0 +1,67 @@
+* {
+  margin: 0 auto;
+}
+body {
+  max-width: 1440px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.homes {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+
+  margin-top: 120px;
+  margin-right: 538px;
+  margin-left: 538px;
+  width: 364px;
+  height: 47px;
+}
+.sleep {
+  margin-top: 106px;
+  display: flex;
+  gap: 16px;
+}
+.leopold {
+  font-family: "Roboto", sans-serif;
+  margin-top: 24px;
+  color: #3077c6;
+}
+.russia {
+  font-family: "Roboto", sans-serif;
+  color: #bfbfbf;
+  margin-top: 24px;
+}
+.swim {
+  font-family: "Roboto", sans-serif;
+  margin-top: 24px;
+  color: #3077c6;
+}
+.spain {
+  font-family: "Roboto", sans-serif;
+  color: #bfbfbf;
+  margin-top: 24px;
+}
+.complex {
+  font-family: "Roboto", sans-serif;
+  margin-top: 24px;
+  color: #3077c6;
+}
+.slowakia {
+  font-family: "Roboto", sans-serif;
+  color: #bfbfbf;
+  margin-top: 24px;
+}
+
+.friendship {
+  font-family: "Roboto", sans-serif;
+  margin-top: 24px;
+  color: #3077c6;
+}
+.germany {
+  font-family: "Roboto", sans-serif;
+  color: #bfbfbf;
+  margin-top: 24px;
+}
