@@ -7,10 +7,16 @@ body {
   max-width: 1440px;
 }
 .container {
- margin: 0 auto;
+  margin: 0 auto;
   width: 90%;
 }
-
+hr {
+  margin-top: 20px;
+  width: 100px;
+  height: 4px;
+  display: inline-block;
+  background-color: #F5BD41;
+}
 .heads {
   margin: 120px;
   text-align: right;
