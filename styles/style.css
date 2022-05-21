@@ -1,195 +1,46 @@
-.body {
+* {
   margin: 0;
-  width: 1440px;
-  height: 569px;
-  left: 0;
-  top: 900px;
+  padding: 0;
   box-sizing: border-box;
 }
+body {
+  max-width: 1440px;
+}
+.container {
+ margin: 0 auto;
+  width: 90%;
+}
 
-hr {
-  background-color: #F5BD41;
-  width: 100px;
-  height: 4px;
+.heads {
+  margin: 120px;
+  text-align: right;
+  width: 306px;
+  height: 48px;
+  margin-left: 35%;
 }
 .offers {
-  position: absolute;
-  width: 306px;
-  height: 47px;
-  left: 567px;
-  top: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 120px;
 }
-.support{
-  position: absolute;
+.support {
+  margin-top: 52.17px;
   width: 141px;
   height: 28px;
-  left: 181px;
-  top: 419px;
-}
-.headset {
-  position: absolute;
-  left: 190px;
-  top: 275px;
 }
 .communication {
-  position: absolute;
+  margin-top: 60px;
   width: 296px;
   height: 28px;
-  left: 416px;
-  top: 419px;
-}
-.forum {
-  position: absolute;
-  left: 450px;
-  top: 279px;
 }
 .book {
-  position: absolute;
+  margin-top: 60px;
   width: 168px;
   height: 28px;
-  left: 792px;
-  top: 419px;
-}
-.device {
-  position: absolute;
-  left: 785px;
-  top: 287px;
 }
 .reviews {
-  position: absolute;
+  margin-top: 60px;
   width: 225px;
   height: 28px;
-  left: 1076px;
-  top: 419px;
 }
-.like {
-  position: absolute;
-  left: 1095px;
-  top: 275px;
-}
-
-/** body {*/
-/*  margin: 0;*/
-/*}*/
-/*.offers {*/
-/*  margin: 0 auto;*/
-/*  !*width: 1440px;*!*/
-/*  !*height: 569px;*!*/
-/*}*/
-/*.container {*/
-/*  !*width: 100%;*!*/
-/*  !*align-items: center;*!*/
-/*  !*justify-content: center;*!*/
-/*  margin: 120px 567px 407px 567px;*/
-/*  width:306px;*/
-/*  height:47px;*/
-/*}*/
-/*!*hr {*!*/
-/*!*  box-sizing: border-box;*!*/
-/*!*  margin: 0 auto;*!*/
-/*!*  width: 100px;*!*/
-/*!*  height: 4px;*!*/
-/*!*  background-color: #f5bd41;*!*/
-
-/*}*/
-
-/*.offers_cards {*/
-/*  display: flex;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  margin: 0 auto;*/
-
-/*}*/
-/*.sound {*/
-/*  margin-top: 270px;*/
-/*  margin-right: 1100px;*/
-/*  margin-bottom: 200px;*/
-/*  margin-left: 214px;*/
-
-/*.message {*/
-/*  margin-top: 830px;*/
-/*  margin-right: 270px;*/
-/*  padding-bottom: 206px;*/
-/*  padding-left: 520px;*/
-/*}*/
-/*.laptop {*/
-/*  padding: 280px 514px 214px 826px;*/
-/*}*/
-/*.commend {*/
-/*  padding: 275px 206px 210px 1142px;*/
-
-
-/*.support {*/
-/*  width: 15%;*/
-/*}*/
-/*.message {*/
-/*  width: 15%;*/
-/*}*/
-/*.laptop {*/
-/*  width: 15%;*/
-/*}*/
-/*.commend {*/
-/*  width: 15%;*/
-
-/*}*/
-/*.offer {*/
-/*  width: 306px;*/
-/*  height: 47px;*/
-/*  padding-left: 567px;*/
-/*  padding-top: 120px;*/
-/*  padding-bottom: 402px;*/
-/*}*/
-/*hr {*/
-/*  height: 4px;*/
-/*  width: 100px;*/
-/*  !*padding-top:187px;*!*/
-/*  !* padding-bottom: 378px;*!*/
-/*}*/
-/*}*/
-/*.support {*/
-/*  width: 141px;*/
-/*  height: 28px;*/
-/*  left: 181px;*/
-/*  top: 419px;*/
-/*  right: 1118px;*/
-/*}*/
-/*.headset {*/
-/*  left: 190px;*/
-/*  top: 275px;*/
-/*}*/
-/*.communication {*/
-/*  width: 296px;*/
-/*  height: 28px;*/
-/*  left: 416px;*/
-/*  top: 419px;*/
-/*}*/
-/*.forum {*/
-/*  left: 450px;*/
-/*  top: 279px;*/
-/*}*/
-/*.book {*/
-/*  width: 168px;*/
-/*  height: 28px;*/
-/*  left: 792px;*/
-/*  top: 419px;*/
-/*}*/
-/*.device {*/
-/*  left: 785px;*/
-/*  top: 287px;*/
-/*}*/
-/*.reviews {*/
-/*  width: 225px;*/
-/*  height: 28px;*/
-/*  left: 1076px;*/
-/*  top: 419px;*/
-/*}*/
-/*.like {*/
-/*  position: absolute;*/
-/*  left: 1095px;*/
-/*  top: 275px;*/
-/*}*/
-/*box sizing border box*/
-/*ширина 100%*/
-/*div container*/
-/*margin 0 auto*/
-/*         **/
