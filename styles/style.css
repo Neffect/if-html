@@ -7,12 +7,18 @@ body {
   max-width: 1440px;
 }
 .container {
- margin: 0 auto;
+  margin: 0 auto;
   width: 90%;
 }
-
+hr {
+  margin-top: 20px;
+  width: 100px;
+  height: 4px;
+  display: inline-block;
+  background-color: #F5BD41;
+}
 .heads {
-  margin: 120px;
+  margin-top: 120px;
   text-align: right;
   width: 306px;
   height: 48px;
@@ -25,17 +31,17 @@ body {
   margin-top: 120px;
 }
 .support {
-  margin-top: 52.17px;
+  margin-top: 52px;
   width: 141px;
   height: 28px;
 }
 .communication {
-  margin-top: 60px;
+  margin-top: 56px;
   width: 296px;
   height: 28px;
 }
 .book {
-  margin-top: 60px;
+  margin-top: 64px;
   width: 168px;
   height: 28px;
 }
